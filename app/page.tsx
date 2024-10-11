@@ -41,6 +41,7 @@ export default function Home() {
           <h1>Welcome, {userData.first_name}!</h1>
           {userData.last_name && <h2>{userData.last_name}</h2>}
           {userData.bio && <p>{userData.bio}</p>}
+          <p>User ID: {userData.id}</p>
           <p>Username: {userData.username}</p>
           <p>Language: {userData.language_code}</p>
           <p>Premium User: {userData.is_premium ? "Yes" : "No"}</p>
